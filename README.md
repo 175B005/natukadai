@@ -58,12 +58,13 @@ Instantiate (blockPrefab, pos, qua);
 
 ### リンク
 
-[Instancieteのprefabからの生成](http://qiita.com/JunShimura/items/7e45fc6236cf97914041)
-[Unity3dスクリプトリファレンス](https://docs.unity3d.com/ja/540/ScriptReference/MonoBehaviour.OnMouseOver.html)
-[Unity3dスクリプトリファレンス](https://docs.unity3d.com/ja/540/ScriptReference/Transform.SetParent.html)
-[親子関係](http://qiita.com/YuwUnknown/items/69cf5bbe59452e645d92)
-[親子](https://increment-log.com/unity-instantiate-nesting/)
-[わかりやすい親子](http://sawalemounity.hatenablog.com/entry/2017/07/27/160636)
+[Instancieteのprefabからの生成](http://qiita.com/JunShimura/items/7e45fc6236cf97914041)  
+[Unity3dスクリプトリファレンス](https://docs.unity3d.com/ja/540/ScriptReference/MonoBehaviour.OnMouseOver.html)  
+[Unity3dスクリプトリファレンス](https://docs.unity3d.com/ja/540/ScriptReference/Transform.SetParent.html)  
+[親子関係](http://qiita.com/YuwUnknown/items/69cf5bbe59452e645d92)   
+[親子](https://increment-log.com/unity-instantiate-nesting/)  
+[わかりやすい親子](http://sawalemounity.hatenablog.com/entry/2017/07/27/160636)  
+
 
 ##　反省（考察）
 
