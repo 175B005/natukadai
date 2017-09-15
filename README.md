@@ -107,7 +107,7 @@ if (countball < 11) {
 （NullRefarenceExeptionなど、、)  
 1. 調べたサイトに答えが載っていたのに、  
 先生に聞いてしまったことなどが一番の反省.  
-OnmouseEnterやSetparentなど  
+**OnmouseEnter**や**Setparent**など  
 古い情報と新しい情報がいろんなサイトを見たせいで、  
 ごっちゃになってしまったので  
 結構絞って、いいサイトを見つけておくのが大切だと思った。  
