@@ -15,14 +15,6 @@
 段によって得点と消しやすさが違うので、  
 取れそうなボールをどんどんとっていきましょう。  
 
-### ヒント
-
-当たり判定が少なく、全体的に消えにくくなっています。  
-連続したボールをねらい目として、連続クリック！！  
-端にたどり着いてしまうと、減点１ポイント。  
-どんどん減っていくので、得点をゲットしたからといって、  
-油断しないように。
----
 ## 操作方法
 
 クリックでゲームを始めます。 
@@ -54,6 +46,48 @@ Instantiate (blockPrefab, pos, qua);
 //このコードの書き方。
 
 
+```
+## こだわり
+
+### スコア
+```cs
+	public static void MaxScoreC(){
+		_Resultscore = _score;
+
+			if (_Maxscore < _Resultscore) {
+			_Maxscore = _Resultscore;
+			}
+```
+### 端につくと自動で消える
+```cs
+if (CompareTag ("mato")) {
+			transform.position += new Vector3 (-0.03f, 0f, 0f);
+			if (transform.position.x <= -4.56f) {
+				BallCrate.countball -= 1;
+				BallCrate.high = keyword1;
+				GameParams.DeScore (1);
+				Destroy (gameObject);
+			}
+		}
+	
+if (countball < 11) {
+		switch (high) {
+		case keyword1:
+			Instantiate (blockPrefab, pos, qua);	
+			countball += 1;
+			//Debug.Log (countball);
+			break;
+		case keyword2:
+			Instantiate (blockPrefab1, pos1, qua);	
+			countball += 1;
+		//	Debug.Log (countball);
+			break;
+		case keyword3:
+			Instantiate (blockPrefab2, pos2, qua);	
+			countball += 1;
+			//Debug.Log (countball);
+			break;
+		}		
 ```
 ---
 ### リンク
